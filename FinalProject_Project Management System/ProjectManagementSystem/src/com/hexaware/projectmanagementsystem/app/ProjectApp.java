@@ -1,5 +1,16 @@
 package com.hexaware.projectmanagementsystem.app;
 
+/**
+ * Author: Sivalakshmi
+ * Date: 21-Oct-2024
+ * Description: The entry point of the Project Management System application.
+ *              It initializes the project service and a scanner for user input.
+ *              The method presents a menu to the user, allowing them to 
+ *              perform various operations related to Employees, Projects, 
+ *              and Tasks. User input is processed in a loop until the 
+ *              user chooses to exit the application.
+ */
+
 import com.hexaware.projectmanagementsystem.service.*;
 
 import java.util.List;

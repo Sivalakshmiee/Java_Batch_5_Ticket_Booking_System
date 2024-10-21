@@ -1,5 +1,14 @@
 package com.hexaware.projectmanagementsystem.dao;
 
+/**
+ * Author: Sivalakshmi
+ * Date: 21-Oct-2024
+ * Description: This class implements the IProjectRepository interface 
+ *              and provides methods for performing CRUD operations on 
+ *              Employee, Project, and Task entities. It interacts 
+ *              directly with the database using JDBC.
+ */
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
